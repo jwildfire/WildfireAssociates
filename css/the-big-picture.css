@@ -1,0 +1,53 @@
+@font-face { font-family: IntroInline; src: url('../fonts/IntroInline.otf'); } 
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.home {
+  background: url("../jump.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-family:IntroInline;
+  font-size:64pt;
+}
+
+.home h1{
+	font-size:64pt;
+	color:lightgoldenrodyellow;
+	margin:2px;
+	padding-top:12px;
+	border-top:1px dotted white;
+	border-bottom:1px dotted white;
+}
+.home p{
+	margin:0px;
+}
+.home p a{
+	color:#FEB24C;
+}
+.home .overlay{
+	position: 100px;
+	color:white;
+}
+
+.about {
+  background: #eee; 
+}
+
+.about body{
+	margin-top:0px !important;
+}
+
+.about h2{
+	color:#FD8D3C;
+}
+
+
