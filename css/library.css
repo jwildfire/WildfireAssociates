@@ -64,7 +64,7 @@ div#info p{
 	display:none;
 }
 
-a.info.selected{
+a.info.selected span.glyphicon-info-sign{
 	color:#FEB24C;
 }
 
