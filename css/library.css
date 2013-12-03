@@ -51,3 +51,16 @@ h1{
 }
 
 
+div#info{
+	position:absolute;
+	right:100px;
+	bottom:60px;
+}
+div#info p{
+	color: white;
+}
+
+.hidden{
+	display:none;
+}
+

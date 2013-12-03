@@ -38,6 +38,7 @@
           </ul> 
           <ul class="nav navbar-nav navbar-right">
            <li> <a href="mailto:jwildfire@wildfireassociates.com"><span class="glyphicon glyphicon-envelope"></span></a></li>
+           <li> <a class="info"><span class="glyphicon glyphicon-info-sign"></span></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -49,15 +50,24 @@
           <p class="text-center">Using data to improve outcomes for children and families in child welfare, social services and mental health.</p>
           <h1 class="text-center">WILDFIRE ASSOCIATES</h1>
           <p>(919) 544-6600 &nbsp &nbsp <a href"mailto:jwildfire@wildfireassociates.com">jwildfire@wildfireassociates.com</a> </p>
-
         </div>
       </div>
     </div>
     
+    <div id="info" class="hidden">
+      <p> Built with <a href="http://getbootstrap.com/">Bootstrap 3</a></p>
+      <p> Template:  <a href="http://startbootstrap.com/full">Start Bootstrap</a></p>
+      <p> Image: <a href="http://www.allwalls.net/children-jump-silhouette/">Children Jump Silhouette</a></p>
+    </div>
     
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script>
+      $('a.info').click(function(){
+        $("div#info").toggleClass("hidden")
+      });
+    </script>
 
   </body>
 
