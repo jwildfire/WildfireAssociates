@@ -64,3 +64,7 @@ div#info p{
 	display:none;
 }
 
+a.info.selected{
+	color:#FEB24C;
+}
+
